@@ -1,4 +1,8 @@
 import { Inter } from 'next/font/google';
+import { Lusitana } from 'next/font/google';
 
 export const inter = Inter({ subsets: ['latin'] });
-export const lusitana = 'someValue'; // Certifique-se de que a variável `lusitana` está corretamente exportada
+export const lusitana = Lusitana({
+    weight: '400', // Defina o peso da fonte como '400'
+    subsets: ['latin'],
+  });
